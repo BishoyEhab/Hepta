@@ -1,0 +1,270 @@
+/* start style */
+/* style for the body for all the contant */
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+/* end style */
+/* start style for the contanier which is for all divs*/
+.contanier{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+/* end style */
+/* start style */
+.parent{
+    /* display flex to control the contant */
+    display: flex;
+    /* to make them in rows */
+    flex-direction: row;
+    /* to make space around items */
+    justify-content: space-around;
+    /* to make them in the center */
+    align-items: center;
+    border-top: 2px solid salmon;   
+}
+/* to hide the style from links */
+.menu ul{
+    list-style: none;
+}
+/* to make links in one row */
+.menu ul li{
+    float: left;
+    margin: 7px;
+}
+/* to stop the float */
+.clear{
+    clear: both;
+}
+/* to hide color and lins in links */
+.menu ul a{
+    text-decoration: none;
+    color:rgb(202, 194, 117);
+}
+/* to change color and shape of the last link */
+.menu .hiring{
+    border: 2px solid #ff7f50;
+    border-radius: 20px;
+    background-color: #ff7f50;
+    padding: 5px;
+    color: wheat;
+}
+/* to make home link color black */
+.menu .activ{
+    color: black;
+}
+/* style for the photo */
+.photo{
+    margin-top: 5px;
+    height: 600px;
+    background-image: url('../CssPhotos/first.jpg');
+    background-size: cover;
+    position: relative;
+}
+/* style for the text on the photo */
+.careers{
+    /* absolute for the photo */
+    position: absolute;
+    top: 230px;
+    left: 150px;
+    width: 400px;
+    height: 120px;
+    background-color: rgb(34, 32, 32);
+    border-left: 2px solid #ff7f50;
+    padding-left: 10px;
+}
+/* style for the header on the photo */
+.careers h4{
+    color: white;
+    margin-bottom: 0px;
+}
+/* style for the paragraph on the photo */
+.careers p{
+    color: gray;
+    margin-top: 0px;
+}
+/* style for the text under the photo */
+.text p{
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 5px 2px #ddd;
+}
+/* style for the header */
+.offer-cont h2{
+    /* to make it center */
+    text-align: center;
+    margin-top: 25px;
+}
+/* style for all the div */
+.offers{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* wrap to make the rest of the contant in the next row */
+    flex-wrap: wrap;
+}
+/* to make each div take 30% of the main div */
+.offers div{
+    width: 30%;
+}
+/* style for the header */
+.offers h3{
+    color: rgb(103, 148, 216);
+    font-size: 15px;
+}
+/* style for all inside the main div */
+.bouns{
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+}
+/* style for the header */
+.bouns h3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* to delet the space under */
+    margin-bottom: 0;
+    margin-right: 460px;
+    color: white;
+}
+/* style for the paragragh */
+.both p{
+    color: darkgray;
+}
+/* style for the parent */
+.both{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+/* style for the signs */
+.bouns .both span{
+    color: #ff7f50 ;
+}
+.both div{
+    width: 30%;
+}
+/* style for the icons */
+.both i{
+    display: flex;
+    justify-content: left;
+}
+/* style for the header */
+.position h3{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+/* style for the parent */
+.open-positions{
+    display: flex;
+    justify-content: center;
+    /* to make space between and around */
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* style for the child divs */
+.open-positions div{
+    width: 25%;
+    background-color: white;
+    color: rgb(103, 148, 216);
+    border: 1px solid whitesmoke;
+}
+/* style for the icons */
+.position .open-positions .icon{
+    /* to make the icons centered */
+    padding-top: 50px;
+    width: -webkit-fill-available;
+    font-size: xx-large;
+}
+/* style for paragraph */
+.open-positions div p{
+    color: darkgrey;
+    text-align: center;
+}
+/* style for all the div */
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 4px #ddd;
+}
+/* width for each div */
+.all div{
+    width: 25%;
+}
+/* color for the paragraph */
+.all p{
+    color: darkgrey;
+}
+/* style for first left child */
+.all .first-left{
+    width: 10%;
+    margin-left: -15px;
+}
+/* style for first right child */
+.all .first-right{
+    width: 30%;
+}
+/* style for the child to make space fro top */
+.all .first-left .REQUIRE{
+    margin-top: 30px;
+}
+/* style for second left child */
+.all .second-left{
+    width: 10%;
+}
+/* style for second right child */
+.all .second-right{
+    width: 30%;
+    margin-bottom: 20px;
+}
+/* style for the child to make space fro top */
+.all .second-left .TYPE{
+    margin-top: 30px;
+}
+/* style for the child to make space fro top */
+.all .second-left .LOCATION{
+    margin-top: 35px;
+}
+/* style for the link which is in the end */
+.all .apply{
+    text-align: right;
+    margin-left: 110px;
+    text-decoration: none;
+    color: white;
+    border: 5px solid #ff7f50;
+    border-radius: 3px;
+    background-color: #ff7f50;
+    font-size: 12px;
+    padding: 2px;
+}
+/* style to make space from top between both */
+.again{
+    margin-top: 5px;
+}
+/* style for the footer */
+footer{
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    border-top: 2px solid #ff7f50;
+    color: darkgray;
+}
+/* style for word function at the end */
+footer h5{
+    background-color: rgb(34, 34, 34);
+    border-top: 2px solid black;
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
